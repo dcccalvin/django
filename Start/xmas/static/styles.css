@@ -2,10 +2,14 @@ h1{
     color: #f87b7b;
     font-size: 150px;
     text-align-all: center;
-    transition: color 2s ease-in-out;
-    background: grey;
-
+    margin: 10px;
+    transition: color 0.7s ease-in-out;
+    transition: margin 0.7s ease-in-out;
+    background: transparent 100%;
 }
 h1:hover{
-color: white;
+    color: white;
+    margin: 50px;
+    background: #ffffff;
+
 }

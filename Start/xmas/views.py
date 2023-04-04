@@ -6,5 +6,5 @@ from django.http import HttpResponse
 def xmas(request):
     now = datetime.datetime.now()
     return render(request,"xmas_show.html", {
-        "new":now.month == 4 and now.day == 4
+        "new":now.month == 12 and now.day == 25
     })
